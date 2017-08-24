@@ -9,8 +9,8 @@ BoatRaceDataCollector から入手した競争成績データは txt ファイ�
 ・MySQL を導入する必要があります。
 
 ## 使い方
-・CREATE_TABLE_COMMAND.txt 内の SQL 文を実行してテーブルを作成します
-・PREPARE_DATA.txt を実行して場内データ等を追加します
-・main.py と同じ階層に、「RaceResult」フォルダを作成します
-・「RaceResult」 フォルダに BoatRaceDataCollector から入手した競争成績データを全ていれます。
-・main.py を実行します
+1. CREATE_TABLE_COMMAND.txt 内の SQL 文を実行してテーブルを作成します
+2. PREPARE_DATA.txt を実行して場内データ等を追加します
+3. main.py と同じ階層に、「RaceResult」フォルダを作成します
+4. 「RaceResult」 フォルダに BoatRaceDataCollector から入手した競争成績データを全ていれます。
+5. main.py を実行します
